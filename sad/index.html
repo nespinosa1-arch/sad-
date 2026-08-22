@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niel Espinosa | Thesis Portfolio</title>
+    <link rel="stylesheet" href="d.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+             <a class="logo" href="#">NielPortfolio</a> 
+            <div class="header-controls">
+                <button id="showAllBtn" class="btn" style="display:none">Show all</button>
+                <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+            </div>
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-layout">
+                <img class="avatar hero-avatar" src="yu.jpg" alt="YourName photo" />
+                <div class="hero-copy">
+                    <p class="eyebrow">My Project • Web Development</p>
+                    <h1>Niel Espinosa</h1>
+                    <h2 class="hero-subtitle">Web Developer</h2>
+                    <p>Self-centered,Friendly and Innocent</p>
+                    <p class="cta-row">
+                        <a class="btn primary" href="#projects">View Project</a>
+                        <a class="btn" href="#contact">Contact</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Project Overview</p>
+                    <h2>About the Website</h2>
+                </div>
+                <div class="about-inner">
+                    <img class="avatar avatar-sm" src="yu.jpg" alt="YourName photo" />
+                    <div>
+                        <p>This portfolio focuses on the design and development of responsive web interfaces that prioritize usability, clarity, and accessibility. The study explores how structured design decisions and user-centered implementation can improve user engagement and digital experience quality.</p>
+                        <p>Location: Your City • Open to research, internships, and professional collaboration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Technical Skills</p>
+                    <h2>Core Research and Development Competencies</h2>
+                </div>
+                <ul class="skill-list">
+                    <li>HTML &amp; CSS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Responsive UI Design</li>
+                    <li>Accessibility Standards</li>
+                    <li>Research &amp; Documentation</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Selected Work</p>
+                    <h2>Featured Thesis Deliverables</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card featured">
+                        <span class="project-tag">Featured</span>
+                        <h3>Research Portfolio</h3>
+                        <p>Developed a responsive digital portfolio to present research, design reasoning, and technical implementation effectively.</p>
+                        <p class="project-links"><a href="#">Live</a> • <a href="#">Code</a></p>
+                    </article>
+
+                    <article class="project-card">
+                        <span class="project-tag">UI/UX</span>
+                        <h3>UX Case Study Page</h3>
+                        <p>Created a structured case study layout that communicates problem definition, design decisions, and solution outcomes.</p>
+                        <p class="project-links"><a href="#">Live</a> • <a href="#">Code</a></p>
+                    </article>
+
+                    <article class="project-card">
+                        <span class="project-tag">Development</span>
+                        <h3>Interface Prototype</h3>
+                        <p>Built a concept interface demonstrating usability, hierarchy, and interaction design in a structured prototype environment.</p>
+                        <p class="project-links"><a href="#">Live</a> • <a href="#">Code</a></p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you'd like to work together, send a message or email me directly at <a href="mailto:you@example.com">you@example.com</a>.</p>
+
+                <form id="contactForm" class="contact-form">
+                    <label>
+                        Name
+                        <input type="text" name="name" required />
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" required />
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" rows="5" required></textarea>
+                    </label>
+                    <div class="form-actions">
+                        <button class="btn primary" type="submit">Send</button>
+                        <a class="btn" href="#" id="downloadResume">Download Resume</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="year"></span> YourName — <a href="mailto:you@example.com">you@example.com</a></p>
+        </div>
+    </footer>
+
+    <script src="sd.js" defer></script>
+</body>
+</html>
